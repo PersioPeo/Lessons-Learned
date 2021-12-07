@@ -1,8 +1,35 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
+#cabecalho
 h1 {
-    color: white;
-    text-align: center;
+  position:fixed;
+  margin-left: 100px;
+  color: rgb(115, 21, 5);
+  scroll-behavior: smooth;
+  scroll-margin: 5px;
+  nav-index: initial;  
+
+}
+
+#minha_foto {
+  width: 500px;
+  margin-left: 45px;
+  padding-top: 50px;
+  border: rbg(22, 5, 129);
+}
+p {
+  font: family;
+  font-size: 12px;
+  color: rgb(115, 21, 5);
+  text-indent: 14px;   
+}
+
+#tabela {
+  border: solid 2px:solid
   }
+#section {
+  float: inline-20px;
+  nav-right: auto;
+}
