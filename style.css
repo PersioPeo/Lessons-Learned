@@ -2,34 +2,62 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho
-h1 {
-  position:fixed;
-  margin-left: 100px;
-  color: rgb(115, 21, 5);
-  scroll-behavior: smooth;
-  scroll-margin: 5px;
-  nav-index: initial;  
-
+#cabecalho {
+  top: 0;
+  background-color: #168aff;
+  position: fixed;
+  width: 100px; 
 }
 
 #minha_foto {
-  width: 500px;
-  margin-left: 45px;
-  padding-top: 50px;
+  border-radius: 50%;
+  margin-left: 88px;
+  padding-top: 54px;
   border: rbg(22, 5, 129);
+}
+.lado-esquerdo {
+  font-size: 30px;
+  display: inline-block;
+  border: solid blue;
+  width: 50px;  
+}
+.lado-direito {
+  font-size: 30px;
+  display: inline-block;
+  border: solid blue;
+  width: 50px;
+}
+#licoes_aprendidas {
+  font-size: 30px;
+  display: inline-block;
+  border: cornflowerblue;
+  width: 40px;
+}  
+
+#licoes_a_aprender {
+  font-size: 30px;
+  display: inline-block;
+  border: blue;
 }
 p {
   font: family;
   font-size: 12px;
-  color: rgb(115, 21, 5);
+  color: rbg(205, 0, 0, 0.2);
   text-indent: 14px;   
 }
 
 #tabela {
-  border: solid 2px:solid
-  }
+  border: solid 2px;
+}
 #section {
   float: inline-20px;
   nav-right: auto;
 }
+
+#rodape {
+  top: 580px;
+  font-size: 20px;
+  border: 12px;
+  margin: 18px;
+  padding: 12px;
+}  
