@@ -1,65 +1,114 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(253, 251, 251);
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #1d1b1b;
+  width: 100%;
+  height: 100%;
 }
 
-#cabecalho {
-  top: 0;
-  background-color: #16ffb1;
-  position: fixed;
-  width: 0px; 
+
+
+header {
+  background-color: #74bcc9e3;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
 }
 
-#minha_foto {
-  border-radius: 1500%;
-  margin-left: 0px;
-  width: 50px; 
-  height: 50px;
-  padding-top: 0px;
-  border: rbg(22, 5, 129);
-}
-.lado-esquerdo {
-  font-size: 30px;
-  display: inline-block;
-  border: solid blue;
-  width: 50px;  
-}
-.lado-direito {
-  font-size: 30px;
-  display: inline-block;
-  border: solid blue;
-  width: 50px;
-}
-#licoes_aprendidas {
-  font-size: 30px;
-  display: inline-block;
-  border: cornflowerblue;
-  width: 40px;
-}  
-
-#licoes_a_aprender {
-  font-size: 30px;
-  display: inline-block;
-  border: blue;
-}
-p {
-  font: family;
-  font-size: 12px;
-  color: rbg(205, 0, 0, 0.2);
-  text-indent: 14px;   
+header .p {
+  font-size: 5em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  position: relative;
 }
 
-#tabela {
-  border: solid 2px;
-}
-#section {
-  float: inline-20px;
-  nav-right: auto;
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: 0.5s;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-#rodape {
-  top: 580px;
-  font-size: 20px;
-  border: 12px;
-  margin: 18px;
-  padding: 12px;
-}  
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #1d1b1b;
+  text-align: center;
+  position: relative;
+}
+
+section {
+  padding: 20px 0;
+  border-bottom: 1px solid #2b2828;
+}
+
+section .p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+ol {
+  margin: 10px;
+  padding: 10px;
+}
+
+ul {
+  margin: 10px;
+  padding: 10px;
+}
+
+li {
+  margin: 2px;
+  padding: 2px;
+  width: 15px;
+  left: 10px;
+}
+
+table, tr, td  {
+  margin: 10px;
+  padding: 10px;
+  width: 0%;
+  left: 10px;
+  border: 1px solid #2b2828;
+  border-collapse: collapse;
+  
+}
+
+tr, th  {
+  margin: 10px;
+  padding: 10px;
+  width: 0%;
+  left: 10px;
+  border: 1px solid #924747;
+  border-collapse: collapse;
+  
+}
+
+footer {
+  background-color: #74bcc9e3;
+  padding: 20px 10px;
+  border-bottom: 2px solid #e5e5e5;  
+}
+
